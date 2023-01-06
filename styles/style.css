@@ -11,6 +11,9 @@
 .icon-color {
   color: #16d887;
 }
+
+/* header-section */
+
 .header-section {
   background-image: url('../images/banner/banner3.png');
   height: 100vh;
@@ -24,6 +27,9 @@
   padding: 216px 240px;
   text-align: right;
 }
+
+/* banner-section */
+
 .banner-titlle {
   font-weight: 700;
   font-size: 65px;
@@ -46,7 +52,12 @@
   color: #005fac;
   background: #ffffff;
   border-radius: 5px;
+  border: none;
+  cursor: pointer;
 }
+
+/* failure-section */
+
 .failure-section {
   margin-bottom: 130px;
 }
@@ -65,7 +76,6 @@
   color: #151414;
   font-weight: 700;
   font-size: 40px;
-  margin-bottom: 38px;
 }
 .failure-description {
   font-weight: 400;
@@ -73,8 +83,181 @@
   line-height: 26px;
   color: #444343;
   margin-bottom: 16px;
+  margin-top: 38px;
 }
 .failure-section-text ul li {
   list-style: none;
   margin-bottom: 8px;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+/* my-plan-section */
+
+.my-plan-section {
+  margin-bottom: 130px;
+}
+.my-plan-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.my-plan-items {
+  display: flex;
+  justify-content: space-between;
+}
+.my-plan-icon {
+  text-align: center;
+}
+.my-plan-item-title {
+  margin: 16px 0;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+}
+.my-plan-item-description {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+  text-align: center;
+}
+
+/* activity-section */
+
+.activity-section {
+  margin: 130px 0;
+}
+.activity-header {
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.activity-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  width: 1150px;
+  margin: 0 auto;
+}
+.activity-item {
+  background: rgb(76, 187, 212);
+  color: white;
+  padding: 20px 20px;
+  height: 200px;
+  width: 400px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.activity-item-img {
+  width: 47px;
+  height: 46px;
+}
+
+.activity-item-title {
+  margin: 15px 5px;
+}
+.activity-item-description {
+  text-align: left;
+}
+
+.activity-item:hover {
+  color: black;
+  background: lightgray;
+}
+/* motivation-section */
+
+.motivation-section {
+  margin-bottom: 130px;
+}
+.motivation-container {
+  background-image: url('../images/gradient1.png'), url('../images/watch.png');
+  width: 1140px;
+  height: 300px;
+  border-radius: 5px;
+}
+.motivation-section {
+  margin-bottom: 130px;
+}
+.motivation-item {
+  padding: 60px 65px;
+}
+.motivation-title {
+  width: 459px;
+  height: 94px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+
+/* footer-section */
+
+.footer {
+  background: #151414;
+  height: 570px;
+  width: 100wh;
+}
+
+.footer-container {
+  padding: 130px 230px 23px;
+}
+.footer-items {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-text-title {
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.footer-text-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 485px;
+  margin-bottom: 24px;
+}
+.footer-contact {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.footer-text img {
+  margin-right: 18px;
+}
+.footer-img {
+  margin-top: 16px;
+}
+.form-item {
+}
+.form-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+.email-field {
+  padding: 21px 21px;
+
+  width: 325px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: none;
+}
+.submit-btn {
+  background: #005fac;
+  border-radius: 8px;
+  padding: 20px 36px;
+  color: #ffffff;
+  cursor: pointer;
 }
