@@ -261,3 +261,124 @@
   color: #ffffff;
   cursor: pointer;
 }
+@media screen and (max-width: 576px) {
+  .section-width {
+    width: 100%;
+  }
+  .header-section {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+  }
+
+  .header-items {
+    flex-direction: column;
+
+    width: 100%;
+    padding: 10px;
+  }
+  .header-items {
+    width: 100%;
+    padding: 10px;
+  }
+  .banner-titlle {
+    font-size: 40px;
+    width: 80%;
+  }
+  .btn-style {
+    text-align: center;
+  }
+  .banner-description {
+    width: 80%;
+    margin-top: 40px;
+  }
+  .my-plan-items {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .failure-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .failure-section-text {
+    margin-left: 0;
+    padding: 10px;
+  }
+  .failure-section-img img {
+    width: 100%;
+  }
+  .activity-section {
+    width: 100%;
+  }
+  .activity-items {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .motivation-section {
+    margin-bottom: 50px;
+  }
+  .motivation-item {
+    padding: 10px;
+
+    text-align: center;
+  }
+  .motivation-container {
+    width: 100%;
+    background-image: none;
+    height: auto;
+  }
+  .motivation-title {
+    width: 90%;
+    color: black;
+    margin-bottom: 20px;
+  }
+  .activity-section {
+    margin-bottom: 50px;
+  }
+  .btn-primary {
+    margin-top: 30px;
+    background: #000;
+    color: white;
+  }
+  .footer {
+    width: 100%;
+    height: auto;
+  }
+  .footer-container {
+    padding: 10px;
+  }
+  .footer-items {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-img {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .section-width {
+    width: 100%;
+  }
+  .banner {
+    text-align: left;
+  }
+  .activity-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+  .activity-item {
+    width: 80%;
+    height: auto;
+  }
+  .motivation-container {
+    width: 100%;
+
+    height: auto;
+  }
+  .failure-section-text {
+    width: 50%;
+  }
+}
